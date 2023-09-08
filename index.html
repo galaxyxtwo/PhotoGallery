@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Immutable Images!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            text-align: center;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        .gallery img {
+            width: calc(50% - 10px); /* width of 50% minus half of the total space between two images */
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>My Photo Gallery</h1>
+    </div>
+    <div class="gallery">
+        <img src="https://leto.gg/ipfs/bafybeiec77ea7pu64frayayl7bvehma4xhe7iy5q7xl5oyr7icxjo7xhzq/logan.JPG" alt="Photo 1">
+        <img src="https://leto.gg/ipfs/bafybeiaaoczzgaccnrtmjplqzo632tdeqb7qc5gyjs3vsod3rq27acku4a/UCAN.jpg" alt="Photo 4">
+        <!-- Add more images as required -->
+    </div>
+</body>
+
+</html>
